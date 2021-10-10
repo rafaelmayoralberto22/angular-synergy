@@ -1,5 +1,5 @@
-import { Store } from './core/Store';
 import { NgModule } from '@angular/core';
+import { Store } from './core/Store';
 
 @NgModule({
   declarations: [],
