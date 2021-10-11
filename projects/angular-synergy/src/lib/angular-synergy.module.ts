@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Store } from './core/Store';
+import { SynergyContextProps } from './types/SynergyContextProps';
 
 @NgModule({
   declarations: [],
@@ -7,7 +7,7 @@ import { Store } from './core/Store';
   exports: [],
 })
 export class AngularSynergyModule {
-  static withStores(stores: Record<string, Store<Object>>) {
+  static withStores(stores: Record<string, SynergyContextProps<Object>>) {
     return {
       ngModule: AngularSynergyModule,
       providers: [{ provide: 'SYNERGY_STORE', useValue: stores }],
