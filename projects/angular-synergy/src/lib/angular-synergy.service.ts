@@ -6,7 +6,7 @@ import { SynergyContextProps } from './types/SynergyContextProps';
 })
 export class AngularSynergyStore {
   constructor(
-    @Inject('SYNERGY_STORE') private stores: Record<string, SynergyContextProps<Object>>
+    @Inject('SYNERGY_STORE') private stores: Record<string, SynergyContextProps<any>>
   ) {}
 
   get(key: string) {
