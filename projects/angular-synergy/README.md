@@ -147,4 +147,4 @@ export class AppComponent {
 
 ## License
 
-MIT © [Rafael Mayor Alberto](https://github.com/Rafael Mayor Alberto)
+MIT © [Rafael Mayor Alberto]
