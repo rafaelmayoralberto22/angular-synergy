@@ -139,7 +139,7 @@ export class AppComponent {
   }
 
   onClickLastName() {
-    const lastName = prompt("Please enter your last name", "Lakers");
+    const lastName = prompt("Please enter your last name", "Lakers 23");
     this.buildStore.dispatch("changeLastName", lastName);
   }
 }
